@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link type="image/x-icon" href="./images/favicon.png" rel="shortcut icon" />
+    <title>Makers</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <img src="./images/logo.svg" alt="brand logo" />
+        <ul class="nav-list">
+          <li>Мои шаги</li>
+          <li>График обучения</li>
+          <li>Что я получу?</li>
+          <li>Бесплатные курсы</li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Получи работу программистом</h2>
+      <h2 id="main-info2">в IT компании</h2>
+      <p>
+        Makers быстро обучит с нуля, даст практический опыт и будет с тобой до
+        твоей первой зарплаты.
+      </p>
+      <button>Получи консультацию</button>
+    </main>
+    <hr />
+    <div class="container tittle">
+      <p>Истории успехов выпускников</p>
+      <div class="students">
+        <button id="btnCreate">+</button>
+        <p>Все выпускники</p>
+      </div>
+    </div>
+    <div class="wrapper container" style="width: 100%">
+      <ul class="carousel container">
+        <li class="card">
+          <div class="img">
+            <img src="./images/photo_2023-07-12_11-43-21.jpg" alt="" />
+            <h3 class="card-name">Богдан Бочкарев</h3>
+            <div class="card-profession">Backend Developer</div>
+          </div>
+        </li>
+        <li class="card">
+          <div class="img">
+            <img src="./images/photo_2023-07-12_11-43-49.jpg" alt="" />
+            <h3 class="card-name">Тофик Гаджиев</h3>
+            <div class="card-profession">Backend Developer</div>
+          </div>
+        </li>
+        <li class="card">
+          <div class="img">
+            <img src="./images/photo_2023-07-12_11-44-02.jpg" alt="" />
+            <h3 class="card-name">Каныкей Арстанбаева</h3>
+            <div class="card-profession">
+              Backend Developer/ <br />
+              DataScience
+            </div>
+          </div>
+        </li>
+        <li class="card">
+          <div class="img">
+            <img src="./images/photo_2023-07-12_11-44-22.jpg" alt="" />
+            <h3 class="card-name">Мирбек Баратбаев</h3>
+            <div class="card-profession">Frontend Developer</div>
+          </div>
+        </li>
+      </ul>
+      <ul class="carousel container" id="cardUl"></ul>
+    </div>
+
+    <img
+      src="./images/company.svg"
+      alt="company"
+      style="margin: 52px 137px 92px 137px"
+    />
+    <!--  -->
+    <div class="container profession">
+      <div class="profession-title">
+        <h2>
+          Узнай с чего начать карьеру в IT,<br />
+          о направлениях и профессиях
+        </h2>
+        <button >Все IT профессии тут</button>
+      </div>
+      <img src="./images/Laptop.svg" alt="" />
+    </div>
+    <!--  -->
+    <section class="container get">
+      <div class="block">
+        <h3>Добавить текст</h3>
+        <input type="text" class="newText">
+        <button id="newTextSave">Save Text</button>
+      </div>
+      <!--  -->
+      <div class="text-modal">
+        <div class="inner-text-modal">
+          <h3>Изменить текст</h3>
+          <button id="textModalClose">X</button>
+          <textarea placeholder="Введите текст"></textarea>
+          <button id="textModalSave">Сохранить изменения</button>
+        </div>
+      </div>
+        <!--  -->
+      <div class="get-text">
+        <h3>Что ты получишь у нас:</h3>
+        <div class="get-text-info">
+          <h3>01</h3>
+          <p>
+            Изучение программирования с нуля в 2 раза быстрее чем на других
+            <br />
+            курсах. Мы - самые выгодные среди всех курсов в Бишкеке!
+          </p>
+          <h3>02</h3>
+          <p>
+            Онлайн-стажировка после изучения. Стажировка была утверждена <br />
+            реальными IT компаниями. Работа над проектами как в реальных IT
+            компаниях.
+          </p>
+          <h3>03</h3>
+          <p>
+            Легкий доступ к компаниям.Твое портфолио увидят десятки компаний.
+            <br />
+            Мы тебя свяжем с компаниями и поможем обустроиться в работе.
+          </p>
+        </div>
+        <div class="get-text-info" id="get-text-info-new"></div>
+      </div>
+    </section>
+    <!--  -->
+    <section class="container steps">
+      <h3>Как мы из тебя сделаем программиста?</h3>
+      <p>У тебя будет личный менеджер на каждом из этих этапов.</p>
+      <div class="cards-steps">
+        <div class="card-step">
+          <h3>01</h3>
+          <h4>Выберем направление</h4>
+          <p>
+            Определим направление, что изучать и построим путь с чего начать.
+          </p>
+        </div>
+        <div class="card-step">
+          <h3>02</h3>
+          <h4>Изучим основы языка</h4>
+          <p>
+            Будете уметь делать проекты. Обучение при полной поддержки от
+            ментора и от личного менеджера.
+          </p>
+        </div>
+        <div class="card-step">
+          <h3>03</h3>
+          <h4>Онлайн-стажировка</h4>
+          <p>
+            Обязательная практика на реальных проектах для выпускников после
+            bootcamp.
+          </p>
+        </div>
+        <div class="card-step">
+          <h3>04</h3>
+          <h4>Трудоустройство</h4>
+          <p>
+            Твой менеджер лично будет продвигать тебя. Твое портфолио будет
+            доступно и виден десяткам компаний Кыргызстана и Казахстана.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <section class="container format">
+      <div class="card-format">
+        <h3>Дневной формат</h3>
+        <div></div>
+        <ul>
+          <li>8 часов в день</li>
+          <li>5 дней в неделю</li>
+          <li>40 часов в неделю</li>
+          <li>10.00 - 18.00</li>
+          <li>Продолжительность - 4 месяца.</li>
+          <li>Онлайн стажировка</li>
+          <li>JavaScript / Python</li>
+        </ul>
+      </div>
+      <div class="card-format">
+        <h3>Вечерний формат</h3>
+        <div></div>
+        <ul>
+          <li>3 часа в день</li>
+          <li>5 дней в неделю</li>
+          <li>15 часов в неделю</li>
+          <li>18.30 - 21.30</li>
+          <li>Продолжительность - 4.5 месяца.</li>
+          <li>Онлайн стажировка</li>
+          <li>JavaScript / Python</li>
+        </ul>
+      </div>
+    </section>
+    <section class="container result">
+      <div class="result-title">
+        <h3>Доводим до результата</h3>
+        <p>
+          Сейчас в Бишкеке более 35 IT курсов. Ежемесячно все они вместе <br />
+          выпускают более 1000 начинающих программистов. Почти все они <br />
+          в свободном плавании и сами ищут работу. Стажировку получают <br />
+          только лучшие. 
+        </p>
+        <p>
+          Выпускники Makers не сталкиваются с такой проблемой. Мы будем <br />
+          доводить всех выпускников до результата
+        </p>
+        <button>Записаться</button>
+      </div>
+      <div class="result-card">
+        <h4>ТЕЖЕЛО</h4>
+        <img src="./images/проектыоткомпаний 1.svg" alt="".>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-logo">
+        <img src="./images/Combined Shape.svg" alt="" />
+        <p>© 2023 makers. All rights reserved</p>
+      </div>
+      <div>
+        <div class="footer-number">
+          <p>+996 704 409 409</p>
+          <p>+996 704 409 409</p>
+        </div>
+        <p>Табышалиева 29,  Bishkek Kyrgyzstan</p>
+      </div>
+    </footer>
+    <div class="main-modal">
+      <div class="inner-modal">
+        <h3>Добавить студента</h3>
+        <button id="btnClose">X</button>
+        <form class="form1">
+          <p>Ссылка на фото</p>
+          <input type="text" id="inpImage" placeholder="фото" />
+          <p>ФИО выпускника</p>
+          <input type="text" id="inpName" placeholder="имя" />
+          <p>Занимаемая должность</p>
+          <input type="text" id="inpProfession" placeholder="должность" />
+          <button id="btnSave">Сохранить</button>
+          <button id="btnSaveChanges">Сохранить изменения</button>
+        </form>
+      </div>
+    </div>
+    <script src="./JS/main.js"></script>
+  </body>
+</html>
